@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+<Pane fx:id="cellPane" maxHeight="100.0" maxWidth="300.0" minHeight="100.0" minWidth="300.0" prefHeight="100.0" prefWidth="300.0" stylesheets="@css/cellPane.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.cell.VisualiserCell">
+   <effect>
+      <DropShadow />
+   </effect>
+   <children>
+      <FlowPane alignment="CENTER" layoutY="1.0" prefHeight="100.0" prefWidth="300.0">
+         <children>
+            <Text fx:id="cellText" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" textAlignment="CENTER" />
+         </children>
+      </FlowPane>
+   </children>
+</Pane>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<Pane fx:id="mainPane" disable="true" opacity="0.0" prefHeight="700.0" prefWidth="1300.0" stylesheets="@css/visualiserPane.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.menus.visualiserPane.VisualiserPane">
+   <children>
+      <Pane layoutY="47.0" prefHeight="583.0" prefWidth="300.0">
+         <children>
+            <ScrollPane fx:id="scrollPane" hbarPolicy="NEVER" layoutY="1.0" maxHeight="630.0" maxWidth="300.0" minHeight="583.0" minWidth="300.0" prefHeight="583.0" prefWidth="300.0">
+               <content>
+                  <VBox fx:id="vbox" prefHeight="583.0" prefWidth="302.0" />
+               </content>
+            </ScrollPane>
+         </children>
+      </Pane>
+      <Pane layoutX="-4.0" layoutY="636.0" prefHeight="70.0" prefWidth="300.0">
+         <children>
+            <FlowPane alignment="CENTER" columnHalignment="CENTER" layoutX="-3.0" layoutY="1.0" prefHeight="50.0" prefWidth="306.0">
+               <children>
+                  <JFXButton fx:id="backButton" ellipsisString="" layoutY="10.0" prefHeight="57.0" prefWidth="277.0" style="-fx-border-color: white; -fx-border-radius: 25; -fx-font-family: impact; -fx-font-size: 25;" text="Înapoi">
+                     </JFXButton>
+               </children>
+            </FlowPane>
+         </children></Pane>
+      <Pane fx:id="detailsContainer" layoutX="300.0" prefHeight="700.0" prefWidth="1000.0" />
+      <JFXComboBox fx:id="deviceLocation" focusColor="WHITE" layoutY="5.0" onAction="#locationValueChanged" prefHeight="38.0" prefWidth="300.0" style="-fx-font-size: 15; -fx-font-family: impact;" unFocusColor="WHITE" />
+   </children>
+</Pane>

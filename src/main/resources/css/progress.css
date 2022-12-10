@@ -1,0 +1,13 @@
+.jfx-progress-bar > .track, .jfx-progress-bar > .bar {
+    -fx-background-radius: 0;
+    -fx-background-insets: 0;
+}
+
+.jfx-progress-bar > .bar {
+    -fx-background-color: #00a7e7; -fx-opacity: 0.80;
+}
+
+.jfx-progress-bar > .track {
+    /*-fx-background-color: darkred; -fx-opacity: 0.10;*/
+    -fx-background-color: BLACK;-fx-opacity: 0.10;
+}

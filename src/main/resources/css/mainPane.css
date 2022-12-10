@@ -1,0 +1,29 @@
+#mainPane{
+    -fx-background-color: #636e72;
+}
+
+.text{
+    -fx-font-family:Impact;
+    -fx-text-fill: WHITE;
+}
+
+#incomingEvents{
+    -fx-background-color: #71777d;
+    -fx-background-radius: 25;
+    -fx-min-width: 400;
+}
+
+#activeEvents{
+    -fx-background-color: #3a3d65;
+    -fx-background-radius: 25;
+}
+
+#quickAddEvent{
+    -fx-background-color: #1f6d3d;
+    -fx-background-radius: 25;
+}
+
+#exitButton{
+    -fx-background-color: #8d2d23;
+    -fx-background-radius: 25;
+}

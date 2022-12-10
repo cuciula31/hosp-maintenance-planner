@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<Pane fx:id="mainPane" disable="true" opacity="0.0" prefHeight="700.0" prefWidth="1300.0" stylesheets="@css/visualiserPane.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.menus.visualiserPane.VisualiserPane">
+   <children>
+      <Pane prefHeight="630.0" prefWidth="300.0">
+         <children>
+            <ScrollPane fx:id="scrollPane" prefHeight="630.0" prefWidth="300.0">
+               <content>
+                  <VBox fx:id="vbox" prefHeight="627.0" prefWidth="300.0" />
+               </content>
+            </ScrollPane>
+         </children>
+      </Pane>
+      <Pane layoutY="632.0" prefHeight="70.0" prefWidth="300.0">
+         <children>
+            <FlowPane alignment="CENTER" columnHalignment="CENTER" layoutX="-4.0" layoutY="1.0" prefHeight="50.0" prefWidth="306.0">
+               <children>
+                  <JFXButton fx:id="backButton" ellipsisString="" layoutY="10.0" prefHeight="61.0" prefWidth="91.0">
+                     <graphic>
+                        <ImageView fitHeight="50.0" fitWidth="50.0">
+                           <image>
+                              <Image url="@drawable/back.png" />
+                           </image>
+                        </ImageView>
+                     </graphic></JFXButton>
+                  <JFXButton layoutX="99.0" layoutY="10.0" />
+                  <JFXButton layoutX="201.0" layoutY="10.0" />
+               </children>
+            </FlowPane>
+         </children></Pane>
+      <Pane fx:id="detailsContainer" layoutX="300.0" prefHeight="700.0" prefWidth="1000.0" />
+   </children>
+</Pane>

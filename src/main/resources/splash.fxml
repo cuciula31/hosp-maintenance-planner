@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXProgressBar?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane fx:id="splashPane" prefHeight="400.0" prefWidth="800.0" style="-fx-background-color: #636e72;" stylesheets="@css/progress.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.splash.Splash">
+   <children>
+      <JFXProgressBar layoutX="-149.0" layoutY="198.0" prefWidth="400.0" rotate="90.0" />
+      <JFXProgressBar layoutX="-95.0" layoutY="199.0" prefWidth="402.0" rotate="90.0" />
+      <JFXProgressBar layoutX="-41.0" layoutY="199.0" prefWidth="402.0" rotate="90.0" />
+      <JFXProgressBar layoutX="13.0" layoutY="199.0" prefWidth="400.0" rotate="90.0" />
+      <JFXProgressBar layoutX="68.0" layoutY="199.0" prefWidth="400.0" rotate="90.0" />
+      <JFXProgressBar layoutX="122.0" layoutY="199.0" prefWidth="400.0" rotate="90.0" />
+      <JFXProgressBar layoutX="176.0" layoutY="198.0" prefWidth="400.0" rotate="90.0" />
+      <JFXProgressBar layoutX="231.0" layoutY="198.0" prefWidth="400.0" rotate="90.0" />
+      <JFXProgressBar layoutX="339.0" layoutY="199.0" prefWidth="400.0" rotate="90.0" />
+      <JFXProgressBar layoutX="285.0" layoutY="199.0" prefWidth="400.0" rotate="90.0" />
+      <JFXProgressBar layoutX="394.0" layoutY="199.0" prefWidth="400.0" rotate="90.0" />
+      <JFXProgressBar layoutX="448.0" layoutY="199.0" prefWidth="400.0" rotate="90.0" />
+      <JFXProgressBar layoutX="502.0" layoutY="199.0" prefWidth="400.0" rotate="90.0" />
+      <JFXProgressBar layoutX="557.0" layoutY="198.0" prefWidth="400.0" rotate="90.0" />
+      <JFXProgressBar layoutX="-5.0" layoutY="18.0" prefWidth="110.0" rotate="-22.4" />
+      <JFXProgressBar layoutX="-5.0" layoutY="20.0" prefWidth="114.0" rotate="21.8" />
+      <JFXProgressBar layoutX="103.0" layoutY="19.0" prefWidth="113.0" rotate="21.8" />
+      <JFXProgressBar layoutX="102.0" layoutY="20.0" prefWidth="116.0" rotate="-22.4" />
+      <JFXProgressBar layoutX="210.0" layoutY="18.0" prefWidth="112.0" rotate="-22.4" />
+      <JFXProgressBar layoutX="319.0" layoutY="19.0" prefWidth="112.0" rotate="-22.4" />
+      <JFXProgressBar layoutX="428.0" layoutY="19.0" prefWidth="112.0" rotate="-22.4" />
+      <JFXProgressBar layoutX="536.0" layoutY="19.0" prefWidth="112.0" rotate="-22.4" />
+      <JFXProgressBar layoutX="645.0" layoutY="18.0" prefWidth="112.0" rotate="-22.4" />
+      <JFXProgressBar layoutX="-4.0" layoutY="64.0" prefWidth="114.0" rotate="21.8" />
+      <JFXProgressBar layoutX="212.0" layoutY="19.0" prefWidth="113.0" rotate="21.8" />
+      <JFXProgressBar layoutX="320.0" layoutY="20.0" prefWidth="113.0" rotate="21.8" />
+      <JFXProgressBar layoutX="429.0" layoutY="20.0" prefWidth="113.0" rotate="21.8" />
+      <JFXProgressBar layoutX="537.0" layoutY="19.0" prefWidth="113.0" rotate="21.8" />
+      <JFXProgressBar layoutX="647.0" layoutY="19.0" prefWidth="113.0" rotate="21.8" />
+      <JFXProgressBar layoutX="752.0" layoutY="6.0" prefWidth="54.0" rotate="21.8" />
+      <JFXProgressBar layoutX="696.0" layoutY="44.0" prefWidth="113.0" rotate="-22.4" />
+      <JFXProgressBar layoutX="696.0" layoutY="312.0" prefWidth="113.0" rotate="-22.4" />
+      <JFXProgressBar layoutX="696.0" layoutY="266.0" prefWidth="113.0" rotate="-22.4" />
+      <JFXProgressBar layoutX="696.0" layoutY="222.0" prefWidth="113.0" rotate="-22.4" />
+      <JFXProgressBar layoutX="696.0" layoutY="177.0" prefWidth="113.0" rotate="-22.4" />
+      <JFXProgressBar layoutX="696.0" layoutY="133.0" prefWidth="113.0" rotate="-22.4" />
+      <JFXProgressBar layoutX="697.0" layoutY="90.0" prefWidth="113.0" rotate="-22.4" />
+      <JFXProgressBar layoutX="592.0" layoutY="87.0" prefWidth="113.0" rotate="-22.4" />
+      <JFXProgressBar layoutX="592.0" layoutY="177.0" prefWidth="113.0" rotate="-22.4" />
+      <JFXProgressBar layoutX="592.0" layoutY="132.0" prefWidth="113.0" rotate="-22.4" />
+      <JFXProgressBar layoutX="740.0" layoutY="392.0" prefWidth="70.0" rotate="-22.4" />
+      <JFXProgressBar layoutX="696.0" layoutY="357.0" prefWidth="113.0" rotate="-22.4" />
+      <JFXProgressBar layoutX="484.0" layoutY="267.0" prefWidth="113.0" rotate="-22.4" />
+      <JFXProgressBar layoutX="484.0" layoutY="221.0" prefWidth="113.0" rotate="-22.4" />
+      <JFXProgressBar layoutX="484.0" layoutY="132.0" prefWidth="113.0" rotate="-22.4" />
+      <JFXProgressBar layoutX="484.0" layoutY="177.0" prefWidth="111.0" rotate="-22.4" />
+      <JFXProgressBar layoutX="592.0" layoutY="400.0" prefWidth="113.0" rotate="-22.4" />
+      <JFXProgressBar layoutX="592.0" layoutY="355.0" prefWidth="113.0" rotate="-22.4" />
+      <JFXProgressBar layoutX="592.0" layoutY="308.0" prefWidth="113.0" rotate="-22.4" />
+      <JFXProgressBar layoutX="592.0" layoutY="265.0" prefWidth="113.0" rotate="-22.4" />
+      <JFXProgressBar layoutX="592.0" layoutY="220.0" prefWidth="113.0" rotate="-22.4" />
+
+   </children>
+</Pane>

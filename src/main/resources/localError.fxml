@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<Pane fx:id="mainPane" stylesheets="@css/localError.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.error.LocalError">
+   <children>
+      <Pane fx:id="blurPane" prefHeight="700.0" prefWidth="1300.0">
+
+</Pane>
+      <Pane fx:id="errorPane" layoutY="163.0" prefHeight="360.0" prefWidth="1300.0">
+         <children>
+            <Text fx:id="warningText" fill="WHITE" layoutX="7.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Atenție!">
+               <font>
+                  <Font size="51.0" />
+               </font>
+            </Text>
+            <Line fx:id="warningLine" endX="109.0" layoutX="115.0" layoutY="87.0" startX="-100.0" stroke="WHITE" />
+            <JFXButton fx:id="okButton" layoutX="1227.0" layoutY="296.0" text="OK" />
+            <FlowPane layoutX="33.0" layoutY="165.0" prefHeight="49.0" prefWidth="1098.0">
+               <children>
+                  <Text fx:id="text" strokeType="OUTSIDE" strokeWidth="0.0" text="Numele este invalid" />
+               </children>
+            </FlowPane>
+         </children>
+      </Pane>
+   </children>
+</Pane>

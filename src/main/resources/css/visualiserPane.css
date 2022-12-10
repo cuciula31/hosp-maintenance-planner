@@ -1,0 +1,18 @@
+#mainPane {
+    -fx-background-color: #636e72;
+}
+
+.jfx-button {
+
+    -fx-font-size: 25;
+    -fx-text-fill: WHITE;
+    -fx-font-family: Impact;
+}
+
+#vbox{
+    -fx-background-color: #636e72;
+}
+
+#scrollPane{
+    -fx-background-color: #636e72;
+}

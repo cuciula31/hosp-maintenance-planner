@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane fx:id="mainPane" prefHeight="700.0" prefWidth="1300.0" stylesheets="@css/mainPane.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.Controller">
+   <Pane fx:id="displayPane" layoutX="-1.0" layoutY="-1.0" prefHeight="700.0" prefWidth="1300.0">
+      <children>
+         <Pane fx:id="principalPane" prefHeight="700.0" prefWidth="1300.0">
+            <children>
+               <Pane fx:id="managerInfos" layoutX="34.0" layoutY="105.0" prefHeight="487.0" prefWidth="282.0">
+                  <children>
+                      <ImageView fx:id="image" fitHeight="278.0" fitWidth="283.0" nodeOrientation="INHERIT" opacity="0.0" preserveRatio="true">
+                          <image>
+                              <Image url="@drawable/profile.png" />
+                          </image>
+                      </ImageView>
+                     <Text fill="WHITE" layoutX="13.0" layoutY="315.736328125" opacity="0.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: impact; -fx-font-size: 30; -fx-text-fill: WHITE;" text="CUCIULA MARIAN-GIGI" />
+                     <FlowPane layoutX="13.0" layoutY="338.0" opacity="0.0" prefHeight="31.0" prefWidth="85.0">
+                        <children>
+                           <Text fill="WHITE" opacity="0.7" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: impact; -fx-font-size: 25; -fx-text-fill: WHITE;" text="-------------------------" />
+                        </children>
+                     </FlowPane>
+                     <FlowPane layoutX="13.0" layoutY="368.0" opacity="0.0" prefHeight="31.0" prefWidth="144.0">
+                        <children>
+                           <Text fill="WHITE" opacity="0.7" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: impact; -fx-font-size: 25; -fx-text-fill: WHITE;" text="0744-564-057" />
+                        </children>
+                     </FlowPane>
+                     <FlowPane layoutX="13.0" layoutY="399.0" opacity="0.0" prefHeight="31.0" prefWidth="238.0">
+                        <children>
+                           <Text fill="WHITE" opacity="0.7" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: impact; -fx-font-size: 25; -fx-text-fill: WHITE;" text="GIGI75MC@YAHOO.COM" />
+                        </children>
+                     </FlowPane>
+                  </children>
+               </Pane>
+               <Pane fx:id="buttonsWrapper" layoutX="380.0" layoutY="3.0">
+                  <children>
+                     <Pane fx:id="incomingEvents" layoutX="66.0" layoutY="58.0" onMouseReleased="#incomingReleased" opacity="0.0" prefHeight="271.0" prefWidth="306.0">
+                        <effect>
+                           <DropShadow color="#00000066" height="35.83" radius="30.015" width="86.23" />
+                        </effect>
+                        <children>
+                           <ImageView disable="true" fitHeight="305.0" fitWidth="295.0" layoutY="-12.0" opacity="0.1" pickOnBounds="true" preserveRatio="true">
+                              <image>
+                                 <Image url="@drawable/hurryTime2.png" />
+                              </image>
+                              <effect>
+                                 <DropShadow radius="17.415" spread="0.59" width="50.66" />
+                              </effect>
+                           </ImageView>
+                           <FlowPane alignment="CENTER" layoutX="-2.0" layoutY="127.0" prefHeight="27.0" prefWidth="400.0" style="-fx-font-family: impact;">
+                              <children>
+                                 <Text fx:id="incomingEventText" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: impact;" text="Nu există revizii în apropiere">
+                                    <font>
+                                       <Font size="22.0" />
+                                    </font>
+                                 </Text>
+                              </children>
+                           </FlowPane>
+                        </children>
+                     </Pane>
+                     <Pane fx:id="activeEvents" layoutX="499.0" layoutY="58.0" onMouseReleased="#visualiserReleased" opacity="0.0" prefHeight="271.0" prefWidth="306.0">
+                        <effect>
+                           <DropShadow color="#00000066" height="35.83" radius="30.015" width="86.23" />
+                        </effect>
+                        <children>
+                           <ImageView disable="true" fitHeight="271.0" fitWidth="255.0" layoutX="34.0" layoutY="-1.0" opacity="0.1" pickOnBounds="true" preserveRatio="true">
+                              <image>
+                                 <Image url="@drawable/revisions.png" />
+                              </image>
+                              <effect>
+                                 <DropShadow height="41.76" radius="19.6375" spread="0.17" width="38.79" />
+                              </effect>
+                           </ImageView>
+                           <FlowPane layoutX="73.0" layoutY="125.0" prefHeight="17.0" prefWidth="71.0" style="-fx-font-family: impact;">
+                              <children>
+                                 <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: impact;" text="Vizualizare revizii">
+                                    <font>
+                                       <Font size="22.0" />
+                                    </font>
+                                 </Text>
+                              </children>
+                           </FlowPane>
+                        </children>
+                     </Pane>
+                     <Pane fx:id="quickAddEvent" layoutX="405.0" layoutY="383.0" onMouseReleased="#quickAddReleased" opacity="0.0" prefHeight="271.0" prefWidth="400.0">
+                        <effect>
+                           <DropShadow color="#00000066" height="35.83" radius="30.015" width="86.23" />
+                        </effect>
+                        <children>
+                           <ImageView disable="true" fitHeight="271.0" fitWidth="227.0" layoutY="9.0" opacity="0.1" pickOnBounds="true" preserveRatio="true">
+                              <image>
+                                 <Image url="@drawable/maintenance.png" />
+                              </image>
+                              <effect>
+                                 <DropShadow radius="17.415" spread="0.59" width="50.66" />
+                              </effect>
+                           </ImageView>
+                           <FlowPane layoutX="122.0" layoutY="122.0" prefHeight="17.0" prefWidth="71.0" style="-fx-font-family: impact;">
+                              <children>
+                                 <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: impact;" text="Adăugare revizie">
+                                    <font>
+                                       <Font size="22.0" />
+                                    </font>
+                                 </Text>
+                              </children>
+                           </FlowPane>
+                        </children>
+                     </Pane>
+                     <Pane fx:id="exitButton" layoutX="66.0" layoutY="383.0" onMouseReleased="#exitReleased" opacity="0.0" prefHeight="271.0" prefWidth="306.0">
+                        <effect>
+                           <DropShadow color="#00000066" height="35.83" radius="30.015" width="86.23" />
+                        </effect>
+                        <children>
+                           <ImageView disable="true" fitHeight="271.0" fitWidth="255.0" layoutX="26.0" layoutY="34.0" opacity="0.1" pickOnBounds="true" preserveRatio="true">
+                              <image>
+                                 <Image url="@drawable/exit.png" />
+                              </image>
+                              <effect>
+                                 <DropShadow height="41.76" radius="19.6375" spread="0.17" width="38.79" />
+                              </effect>
+                           </ImageView>
+                           <FlowPane alignment="CENTER" layoutX="118.0" layoutY="122.0" prefHeight="17.0" prefWidth="71.0" style="-fx-font-family: impact;">
+                              <children>
+                                 <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: impact;" text="Ieșire">
+                                    <font>
+                                       <Font size="22.0" />
+                                    </font>
+                                 </Text>
+                              </children>
+                           </FlowPane>
+                        </children>
+                     </Pane>
+                  </children>
+               </Pane>
+            </children>
+         </Pane>
+      </children>
+   </Pane>
+</Pane>
